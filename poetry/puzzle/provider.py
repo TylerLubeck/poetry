@@ -790,8 +790,8 @@ class Provider:
             indicator = Indicator(self._io, "{message} <debug>({elapsed:2s})</debug>")
 
             with indicator.auto(
-                "<info>Resolving dependencies...</info>",
-                "<info>Resolving dependencies...</info>",
+                "<info>Resolving dependencies... Go get a coffee, this'll take a while.</info>",
+                "<info>Resolving dependencies... Go get a coffee, this'll take a while.</info>",
             ):
                 yield
 
